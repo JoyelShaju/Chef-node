@@ -1,0 +1,11 @@
+Vagrant.configure("2") do |c|
+  c.berkshelf.enabled = false if Vagrant.has_plugin?("vagrant-berkshelf")
+  c.vm.box = "bento/ubuntu-16.04"
+  c.vm.hostname = "default-ubuntu-1604.vagrantup.com"
+  c.vm.synced_folder ".", "/vagrant", disabled: true
+  c.vm.synced_folder "C:/Users/Joyel Shaju/.kitchen/cache", "/tmp/omnibus/cache", create: true
+  c.vm.provider :virtualbox do |p|
+    p.name = "kitchen-node-default-ubuntu-1604-9d32b9f0-aa52-40f2-9fa9-13a51e77ea60"
+    p.customize ["modifyvm", :id, "--audio", "none"]
+  end
+end

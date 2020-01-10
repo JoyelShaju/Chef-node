@@ -1,0 +1,10 @@
+Vagrant.configure("2") do |c|
+  c.berkshelf.enabled = false if Vagrant.has_plugin?("vagrant-berkshelf")
+  c.vm.box = "ubuntu/xenial64"
+  c.vm.hostname = "default-ubuntu-xenial64.vagrantup.com"
+  c.vm.synced_folder ".", "/vagrant", disabled: true
+  c.vm.provider :virtualbox do |p|
+    p.name = "kitchen-node-default-ubuntu-xenial64-94a8c1ee-d8e5-4705-80f6-54197be270a3"
+    p.customize ["modifyvm", :id, "--audio", "none"]
+  end
+end

@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: C:/Users/Joyel Shaju/Engineering47/Week7/Day4/Infrastructure-As-Code/CookBooks/node/.kitchen/kitchen-vagrant/default-ubuntu-1604/.vagrant/machines/default/virtualbox/private_key
+last_action: create
+last_error: Kitchen::ShellOut::ShellCommandFailed

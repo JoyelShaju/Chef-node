@@ -1,0 +1,268 @@
+I, [2020-01-10T17:29:22.133582 #3180]  INFO -- default-ubuntu-xenial64: -----> Creating <default-ubuntu-xenial64>...
+I, [2020-01-10T17:29:26.606003 #3180]  INFO -- default-ubuntu-xenial64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2020-01-10T17:29:31.008068 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Importing base box 'ubuntu/xenial64'...
+I, [2020-01-10T17:29:39.988026 #3180]  INFO -- default-ubuntu-xenial64: [K==> default: Matching MAC address for NAT networking...
+I, [2020-01-10T17:29:40.234707 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Checking if box 'ubuntu/xenial64' version '20191204.0.0' is up to date...
+I, [2020-01-10T17:29:41.205191 #3180]  INFO -- default-ubuntu-xenial64: ==> default: A newer version of the box 'ubuntu/xenial64' for provider 'virtualbox' is
+I, [2020-01-10T17:29:41.205328 #3180]  INFO -- default-ubuntu-xenial64: ==> default: available! You currently have version '20191204.0.0'. The latest is version
+I, [2020-01-10T17:29:41.205403 #3180]  INFO -- default-ubuntu-xenial64: ==> default: '20200108.0.0'. Run `vagrant box update` to update.
+I, [2020-01-10T17:29:42.085651 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Setting the name of the VM: kitchen-node-default-ubuntu-xenial64-94a8c1ee-d8e5-4705-80f6-54197be270a3
+I, [2020-01-10T17:29:44.910169 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+I, [2020-01-10T17:29:45.040672 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Clearing any previously set network interfaces...
+I, [2020-01-10T17:29:45.105175 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Preparing network interfaces based on configuration...
+I, [2020-01-10T17:29:45.105462 #3180]  INFO -- default-ubuntu-xenial64:     default: Adapter 1: nat
+I, [2020-01-10T17:29:45.169946 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Forwarding ports...
+I, [2020-01-10T17:29:45.233594 #3180]  INFO -- default-ubuntu-xenial64:     default: 22 (guest) => 2200 (host) (adapter 1)
+I, [2020-01-10T17:29:45.532572 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Running 'pre-boot' VM customizations...
+I, [2020-01-10T17:29:46.202404 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Booting VM...
+I, [2020-01-10T17:29:52.549056 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2020-01-10T17:29:53.082524 #3180]  INFO -- default-ubuntu-xenial64:     default: SSH address: 127.0.0.1:2200
+I, [2020-01-10T17:29:53.082649 #3180]  INFO -- default-ubuntu-xenial64:     default: SSH username: vagrant
+I, [2020-01-10T17:29:53.082795 #3180]  INFO -- default-ubuntu-xenial64:     default: SSH auth method: private key
+I, [2020-01-10T17:30:23.607136 #3180]  INFO -- default-ubuntu-xenial64:     default: Warning: Remote connection disconnect. Retrying...
+I, [2020-01-10T17:30:26.102830 #3180]  INFO -- default-ubuntu-xenial64:     default: 
+I, [2020-01-10T17:30:26.102936 #3180]  INFO -- default-ubuntu-xenial64:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2020-01-10T17:30:26.103043 #3180]  INFO -- default-ubuntu-xenial64:     default: this with a newly generated keypair for better security.
+I, [2020-01-10T17:30:27.799194 #3180]  INFO -- default-ubuntu-xenial64:     default: 
+I, [2020-01-10T17:30:27.799405 #3180]  INFO -- default-ubuntu-xenial64:     default: Inserting generated public key within guest...
+I, [2020-01-10T17:30:29.257734 #3180]  INFO -- default-ubuntu-xenial64:     default: Removing insecure key from the guest if it's present...
+I, [2020-01-10T17:30:29.525197 #3180]  INFO -- default-ubuntu-xenial64:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2020-01-10T17:30:30.643102 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Machine booted and ready!
+I, [2020-01-10T17:30:30.643241 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Checking for guest additions in VM...
+I, [2020-01-10T17:30:30.696732 #3180]  INFO -- default-ubuntu-xenial64:     default: The guest additions on this VM do not match the installed version of
+I, [2020-01-10T17:30:30.696897 #3180]  INFO -- default-ubuntu-xenial64:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2020-01-10T17:30:30.697088 #3180]  INFO -- default-ubuntu-xenial64:     default: prevent things such as shared folders from working properly. If you see
+I, [2020-01-10T17:30:30.697322 #3180]  INFO -- default-ubuntu-xenial64:     default: shared folder errors, please make sure the guest additions within the
+I, [2020-01-10T17:30:30.697525 #3180]  INFO -- default-ubuntu-xenial64:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2020-01-10T17:30:30.697807 #3180]  INFO -- default-ubuntu-xenial64:     default: your host and reload your VM.
+I, [2020-01-10T17:30:30.697890 #3180]  INFO -- default-ubuntu-xenial64:     default: 
+I, [2020-01-10T17:30:30.698160 #3180]  INFO -- default-ubuntu-xenial64:     default: Guest Additions Version: 5.1.38
+I, [2020-01-10T17:30:30.698357 #3180]  INFO -- default-ubuntu-xenial64:     default: VirtualBox Version: 5.2
+I, [2020-01-10T17:30:30.698496 #3180]  INFO -- default-ubuntu-xenial64: ==> default: [vagrant-hostsupdater] Checking for host entries
+I, [2020-01-10T17:30:30.698627 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Setting hostname...
+I, [2020-01-10T17:30:32.436262 #3180]  INFO -- default-ubuntu-xenial64: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2020-01-10T17:30:40.436982 #3180]  INFO -- default-ubuntu-xenial64: [SSH] Established
+I, [2020-01-10T17:30:40.437729 #3180]  INFO -- default-ubuntu-xenial64: Vagrant instance <default-ubuntu-xenial64> created.
+I, [2020-01-10T17:30:40.439578 #3180]  INFO -- default-ubuntu-xenial64: Finished creating <default-ubuntu-xenial64> (1m18.30s).
+I, [2020-01-10T17:30:40.440092 #3180]  INFO -- default-ubuntu-xenial64: -----> Converging <default-ubuntu-xenial64>...
+I, [2020-01-10T17:30:40.445692 #3180]  INFO -- default-ubuntu-xenial64: Preparing files for transfer
+I, [2020-01-10T17:30:40.446599 #3180]  INFO -- default-ubuntu-xenial64: Installing cookbooks for Policyfile C:/Users/Chef_Attribute_And_Template/node/Policyfile.rb using `chef install`
+I, [2020-01-10T17:30:52.774885 #3180]  INFO -- default-ubuntu-xenial64: Installing cookbooks from lock
+I, [2020-01-10T17:30:52.785645 #3180]  INFO -- default-ubuntu-xenial64: Using      apt             7.2.0
+I, [2020-01-10T17:30:52.785932 #3180]  INFO -- default-ubuntu-xenial64: Using      ark             5.0.0
+I, [2020-01-10T17:30:52.786131 #3180]  INFO -- default-ubuntu-xenial64: Using      build-essential 8.2.1
+I, [2020-01-10T17:30:52.786328 #3180]  INFO -- default-ubuntu-xenial64: Using      mingw           2.1.0
+I, [2020-01-10T17:30:52.786533 #3180]  INFO -- default-ubuntu-xenial64: Installing node            0.1.0
+I, [2020-01-10T17:30:52.786656 #3180]  INFO -- default-ubuntu-xenial64: Using      nodejs          5.0.0
+I, [2020-01-10T17:30:52.786847 #3180]  INFO -- default-ubuntu-xenial64: Using      seven_zip       3.1.2
+I, [2020-01-10T17:30:52.787499 #3180]  INFO -- default-ubuntu-xenial64: Using      windows         6.0.1
+I, [2020-01-10T17:30:52.819677 #3180]  INFO -- default-ubuntu-xenial64: Updating policy lock using `chef update`
+I, [2020-01-10T17:31:04.620751 #3180]  INFO -- default-ubuntu-xenial64: Attributes already up to date
+I, [2020-01-10T17:31:04.621079 #3180]  INFO -- default-ubuntu-xenial64: Building policy node
+I, [2020-01-10T17:31:04.621245 #3180]  INFO -- default-ubuntu-xenial64: Expanded run list: recipe[node::default]
+I, [2020-01-10T17:31:04.621380 #3180]  INFO -- default-ubuntu-xenial64: Caching Cookbooks...
+I, [2020-01-10T17:31:04.621521 #3180]  INFO -- default-ubuntu-xenial64: Installing node >= 0.0.0 from path
+I, [2020-01-10T17:31:09.056217 #3180]  INFO -- default-ubuntu-xenial64: Using      nodejs          5.0.0
+I, [2020-01-10T17:31:09.056544 #3180]  INFO -- default-ubuntu-xenial64: Using      apt             7.2.0
+I, [2020-01-10T17:31:09.056793 #3180]  INFO -- default-ubuntu-xenial64: Using      build-essential 8.2.1
+I, [2020-01-10T17:31:09.056983 #3180]  INFO -- default-ubuntu-xenial64: Using      ark             5.0.0
+I, [2020-01-10T17:31:09.057229 #3180]  INFO -- default-ubuntu-xenial64: Using      seven_zip       3.1.2
+I, [2020-01-10T17:31:09.057485 #3180]  INFO -- default-ubuntu-xenial64: Using      windows         6.0.1
+I, [2020-01-10T17:31:09.058392 #3180]  INFO -- default-ubuntu-xenial64: Using      mingw           2.1.0
+I, [2020-01-10T17:31:10.457088 #3180]  INFO -- default-ubuntu-xenial64: 
+I, [2020-01-10T17:31:10.457418 #3180]  INFO -- default-ubuntu-xenial64: Lockfile written to C:/Users/Chef_Attribute_And_Template/node/Policyfile.lock.json
+I, [2020-01-10T17:31:10.751954 #3180]  INFO -- default-ubuntu-xenial64: Policy revision id: 4f3a0f082147583c9f25003ac4349bbfd3cb8c9299ae339f5ce7b3559164d0c4
+I, [2020-01-10T17:31:10.784301 #3180]  INFO -- default-ubuntu-xenial64: Preparing dna.json
+I, [2020-01-10T17:31:10.786517 #3180]  INFO -- default-ubuntu-xenial64: Exporting cookbook dependencies from Policyfile C:/Users/JOYELS~1/AppData/Local/Temp/default-ubuntu-xenial64-sandbox-20200110-3180-403lqr...
+I, [2020-01-10T17:31:26.509186 #3180]  INFO -- default-ubuntu-xenial64: Exported policy 'node' to C:/Users/JOYELS~1/AppData/Local/Temp/default-ubuntu-xenial64-sandbox-20200110-3180-403lqr
+I, [2020-01-10T17:31:26.509541 #3180]  INFO -- default-ubuntu-xenial64: 
+I, [2020-01-10T17:31:26.509816 #3180]  INFO -- default-ubuntu-xenial64: To converge this system with the exported policy, run:
+I, [2020-01-10T17:31:26.510056 #3180]  INFO -- default-ubuntu-xenial64:   cd C:/Users/JOYELS~1/AppData/Local/Temp/default-ubuntu-xenial64-sandbox-20200110-3180-403lqr
+I, [2020-01-10T17:31:26.510285 #3180]  INFO -- default-ubuntu-xenial64:   chef-client -z
+I, [2020-01-10T17:31:26.544633 #3180]  INFO -- default-ubuntu-xenial64: Removing non-cookbook files before transfer
+I, [2020-01-10T17:31:26.548257 #3180]  INFO -- default-ubuntu-xenial64: Preparing validation.pem
+I, [2020-01-10T17:31:26.553088 #3180]  INFO -- default-ubuntu-xenial64: Preparing client.rb
+I, [2020-01-10T17:31:26.620829 #3180]  INFO -- default-ubuntu-xenial64: -----> Installing Chef install only if missing package
+I, [2020-01-10T17:31:26.621759 #3180]  INFO -- default-ubuntu-xenial64: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2020-01-10T17:31:26.622325 #3180]  INFO -- default-ubuntu-xenial64: Trying wget...
+I, [2020-01-10T17:31:26.709570 #3180]  INFO -- default-ubuntu-xenial64: Download complete.
+I, [2020-01-10T17:31:26.764524 #3180]  INFO -- default-ubuntu-xenial64: ubuntu 16.04 x86_64
+I, [2020-01-10T17:31:26.765813 #3180]  INFO -- default-ubuntu-xenial64: Getting information for chef stable  for ubuntu...
+I, [2020-01-10T17:31:26.766194 #3180]  INFO -- default-ubuntu-xenial64: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
+I, [2020-01-10T17:31:26.766485 #3180]  INFO -- default-ubuntu-xenial64:   to file /tmp/install.sh.1824/metadata.txt
+I, [2020-01-10T17:31:26.767595 #3180]  INFO -- default-ubuntu-xenial64: trying wget...
+I, [2020-01-10T17:31:26.832905 #3180]  INFO -- default-ubuntu-xenial64: sha1	3a4bdede928fe5393f5c57c562039e90f59027d1
+I, [2020-01-10T17:31:26.833138 #3180]  INFO -- default-ubuntu-xenial64: sha256	4a1cdf3de1f33e09bb8e4c7ffc31fb8d6c853858894da7eed0e5ee5a6abd8309
+I, [2020-01-10T17:31:26.833265 #3180]  INFO -- default-ubuntu-xenial64: url	https://packages.chef.io/files/stable/chef/15.6.10/ubuntu/16.04/chef_15.6.10-1_amd64.deb
+I, [2020-01-10T17:31:26.833708 #3180]  INFO -- default-ubuntu-xenial64: version	15.6.10
+I, [2020-01-10T17:31:26.834010 #3180]  INFO -- default-ubuntu-xenial64: downloaded metadata file looks valid...
+I, [2020-01-10T17:31:26.855352 #3180]  INFO -- default-ubuntu-xenial64: downloading https://packages.chef.io/files/stable/chef/15.6.10/ubuntu/16.04/chef_15.6.10-1_amd64.deb
+I, [2020-01-10T17:31:26.855672 #3180]  INFO -- default-ubuntu-xenial64:   to file /tmp/install.sh.1824/chef_15.6.10-1_amd64.deb
+I, [2020-01-10T17:31:26.856306 #3180]  INFO -- default-ubuntu-xenial64: trying wget...
+I, [2020-01-10T17:31:30.511172 #3180]  INFO -- default-ubuntu-xenial64: Comparing checksum with sha256sum...
+I, [2020-01-10T17:31:30.769024 #3180]  INFO -- default-ubuntu-xenial64: 
+I, [2020-01-10T17:31:30.769182 #3180]  INFO -- default-ubuntu-xenial64: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-01-10T17:31:30.769315 #3180]  INFO -- default-ubuntu-xenial64: 
+I, [2020-01-10T17:31:30.769431 #3180]  INFO -- default-ubuntu-xenial64: You are installing a package without a version pin.  If you are installing
+I, [2020-01-10T17:31:30.769544 #3180]  INFO -- default-ubuntu-xenial64: on production servers via an automated process this is DANGEROUS and you will
+I, [2020-01-10T17:31:30.769663 #3180]  INFO -- default-ubuntu-xenial64: be upgraded without warning on new releases, even to new major releases.
+I, [2020-01-10T17:31:30.769823 #3180]  INFO -- default-ubuntu-xenial64: Letting the version float is only appropriate in desktop, test, development or
+I, [2020-01-10T17:31:30.769906 #3180]  INFO -- default-ubuntu-xenial64: CI/CD environments.
+I, [2020-01-10T17:31:30.770019 #3180]  INFO -- default-ubuntu-xenial64: 
+I, [2020-01-10T17:31:30.770137 #3180]  INFO -- default-ubuntu-xenial64: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-01-10T17:31:30.770248 #3180]  INFO -- default-ubuntu-xenial64: 
+I, [2020-01-10T17:31:30.770373 #3180]  INFO -- default-ubuntu-xenial64: Installing chef 
+I, [2020-01-10T17:31:30.770450 #3180]  INFO -- default-ubuntu-xenial64: installing with dpkg...
+I, [2020-01-10T17:31:30.846702 #3180]  INFO -- default-ubuntu-xenial64: Selecting previously unselected package chef.
+I, [2020-01-10T17:31:31.366715 #3180]  INFO -- default-ubuntu-xenial64: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54256 files and directories currently installed.)
+I, [2020-01-10T17:31:31.367759 #3180]  INFO -- default-ubuntu-xenial64: Preparing to unpack .../chef_15.6.10-1_amd64.deb ...
+I, [2020-01-10T17:31:31.379315 #3180]  INFO -- default-ubuntu-xenial64: Unpacking chef (15.6.10-1) ...
+I, [2020-01-10T17:31:36.578847 #3180]  INFO -- default-ubuntu-xenial64: Setting up chef (15.6.10-1) ...
+I, [2020-01-10T17:31:36.718615 #3180]  INFO -- default-ubuntu-xenial64: Thank you for installing Chef Infra Client! For help getting started visit https://learn.chef.io
+I, [2020-01-10T17:31:36.787632 #3180]  INFO -- default-ubuntu-xenial64: Transferring files to <default-ubuntu-xenial64>
+I, [2020-01-10T17:31:44.441011 #3180]  INFO -- default-ubuntu-xenial64: +---------------------------------------------+
+I, [2020-01-10T17:31:44.441242 #3180]  INFO -- default-ubuntu-xenial64: [32m✔[0m 2 product licenses accepted.
+I, [2020-01-10T17:31:44.441351 #3180]  INFO -- default-ubuntu-xenial64: +---------------------------------------------+
+I, [2020-01-10T17:31:44.786199 #3180]  INFO -- default-ubuntu-xenial64: Starting Chef Infra Client, version 15.6.10
+I, [2020-01-10T17:31:46.466935 #3180]  INFO -- default-ubuntu-xenial64: Creating a new client identity for default-ubuntu-xenial64 using the validator key.
+I, [2020-01-10T17:31:46.982923 #3180]  INFO -- default-ubuntu-xenial64: Using policy 'node' at revision '4f3a0f082147583c9f25003ac4349bbfd3cb8c9299ae339f5ce7b3559164d0c4'
+I, [2020-01-10T17:31:47.016245 #3180]  INFO -- default-ubuntu-xenial64: resolving cookbooks for run list: ["node::default@0.1.0 (0e2779c)"]
+I, [2020-01-10T17:31:47.371586 #3180]  INFO -- default-ubuntu-xenial64: Synchronizing Cookbooks:
+I, [2020-01-10T17:31:47.608973 #3180]  INFO -- default-ubuntu-xenial64:   - apt (7.2.0)
+I, [2020-01-10T17:31:47.705877 #3180]  INFO -- default-ubuntu-xenial64:   - build-essential (8.2.1)
+I, [2020-01-10T17:31:47.748912 #3180]  INFO -- default-ubuntu-xenial64:   - ark (5.0.0)
+I, [2020-01-10T17:31:47.749396 #3180]  INFO -- default-ubuntu-xenial64:   - node (0.1.0)
+I, [2020-01-10T17:31:47.749704 #3180]  INFO -- default-ubuntu-xenial64:   - mingw (2.1.0)
+I, [2020-01-10T17:31:47.792994 #3180]  INFO -- default-ubuntu-xenial64:   - nodejs (5.0.0)
+I, [2020-01-10T17:31:47.804557 #3180]  INFO -- default-ubuntu-xenial64:   - seven_zip (3.1.2)
+I, [2020-01-10T17:31:47.815353 #3180]  INFO -- default-ubuntu-xenial64:   - windows (6.0.1)
+I, [2020-01-10T17:31:47.815687 #3180]  INFO -- default-ubuntu-xenial64: Installing Cookbook Gems:
+I, [2020-01-10T17:31:47.837863 #3180]  INFO -- default-ubuntu-xenial64: Compiling Cookbooks...
+I, [2020-01-10T17:31:47.935380 #3180]  INFO -- default-ubuntu-xenial64: Converging 19 resources
+I, [2020-01-10T17:31:47.935687 #3180]  INFO -- default-ubuntu-xenial64: Recipe: nodejs::repo
+I, [2020-01-10T17:31:48.550201 #3180]  INFO -- default-ubuntu-xenial64:   * apt_package[nodejs-apt-transport-https] action install (up to date)
+I, [2020-01-10T17:31:49.343942 #3180]  INFO -- default-ubuntu-xenial64:   * apt_repository[node.js] action add
+I, [2020-01-10T17:31:50.086235 #3180]  INFO -- default-ubuntu-xenial64:     * execute[install-key 1655a0ab68576280] action run
+I, [2020-01-10T17:31:50.086662 #3180]  INFO -- default-ubuntu-xenial64:       - execute apt-key adv --no-tty --recv --keyserver hkp://keyserver.ubuntu.com:80 1655a0ab68576280
+I, [2020-01-10T17:31:50.129703 #3180]  INFO -- default-ubuntu-xenial64:     * execute[apt-cache gencaches] action run
+I, [2020-01-10T17:31:50.130007 #3180]  INFO -- default-ubuntu-xenial64:       - execute ["apt-cache", "gencaches"]
+I, [2020-01-10T17:31:50.130359 #3180]  INFO -- default-ubuntu-xenial64:     * execute[apt-cache gencaches] action nothing (skipped due to action :nothing)
+I, [2020-01-10T17:31:50.130648 #3180]  INFO -- default-ubuntu-xenial64:     * apt_update[node.js] action nothing (skipped due to action :nothing)
+I, [2020-01-10T17:31:50.141413 #3180]  INFO -- default-ubuntu-xenial64:     * file[/etc/apt/sources.list.d/node.js.list] action create
+I, [2020-01-10T17:31:50.141850 #3180]  INFO -- default-ubuntu-xenial64:       - create new file /etc/apt/sources.list.d/node.js.list
+I, [2020-01-10T17:31:50.142381 #3180]  INFO -- default-ubuntu-xenial64:       - update content in file /etc/apt/sources.list.d/node.js.list from none to 869ea4
+I, [2020-01-10T17:31:50.143081 #3180]  INFO -- default-ubuntu-xenial64:       --- /etc/apt/sources.list.d/node.js.list	2020-01-10 17:31:48.562262480 +0000
+I, [2020-01-10T17:31:50.143620 #3180]  INFO -- default-ubuntu-xenial64:       +++ /etc/apt/sources.list.d/.chef-node20200110-1911-8wlvqm.js.list	2020-01-10 17:31:48.558260480 +0000
+I, [2020-01-10T17:31:50.143952 #3180]  INFO -- default-ubuntu-xenial64:       @@ -1 +1,2 @@
+I, [2020-01-10T17:31:50.144334 #3180]  INFO -- default-ubuntu-xenial64:       +deb      https://deb.nodesource.com/node_8.x xenial main
+I, [2020-01-10T17:31:50.144586 #3180]  INFO -- default-ubuntu-xenial64:       - change mode from '' to '0644'
+I, [2020-01-10T17:31:50.144902 #3180]  INFO -- default-ubuntu-xenial64:       - change owner from '' to 'root'
+I, [2020-01-10T17:31:50.145338 #3180]  INFO -- default-ubuntu-xenial64:       - change group from '' to 'root'
+I, [2020-01-10T17:31:50.542434 #3180]  INFO -- default-ubuntu-xenial64:     * execute[apt-cache gencaches] action run
+I, [2020-01-10T17:31:50.542983 #3180]  INFO -- default-ubuntu-xenial64:       - execute ["apt-cache", "gencaches"]
+I, [2020-01-10T17:31:50.543301 #3180]  INFO -- default-ubuntu-xenial64:     * apt_update[node.js] action update
+I, [2020-01-10T17:31:50.543695 #3180]  INFO -- default-ubuntu-xenial64:       - force update new lists of packages
+I, [2020-01-10T17:31:50.545147 #3180]  INFO -- default-ubuntu-xenial64:       * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2020-01-10T17:31:50.545731 #3180]  INFO -- default-ubuntu-xenial64:       * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2020-01-10T17:31:50.557041 #3180]  INFO -- default-ubuntu-xenial64:       * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2020-01-10T17:32:03.066193 #3180]  INFO -- default-ubuntu-xenial64:       * execute[apt-get -q update] action run
+I, [2020-01-10T17:32:03.067172 #3180]  INFO -- default-ubuntu-xenial64:  - execute ["apt-get", "-q", "update"]
+I, [2020-01-10T17:32:03.068038 #3180]  INFO -- default-ubuntu-xenial64:     
+I, [2020-01-10T17:32:03.068703 #3180]  INFO -- default-ubuntu-xenial64:   
+I, [2020-01-10T17:32:03.069145 #3180]  INFO -- default-ubuntu-xenial64: Recipe: nodejs::nodejs_from_package
+I, [2020-01-10T17:32:16.011147 #3180]  INFO -- default-ubuntu-xenial64:   * apt_package[nodejs] action install
+I, [2020-01-10T17:32:16.012236 #3180]  INFO -- default-ubuntu-xenial64:     - install version 8.17.0-1nodesource1 of package nodejs
+I, [2020-01-10T17:32:16.013064 #3180]  INFO -- default-ubuntu-xenial64: Recipe: apt::default
+I, [2020-01-10T17:32:16.013712 #3180]  INFO -- default-ubuntu-xenial64:   * file[/var/lib/apt/periodic/update-success-stamp] action nothing (skipped due to action :nothing)
+I, [2020-01-10T17:32:16.014449 #3180]  INFO -- default-ubuntu-xenial64:   * apt_update[periodic] action periodic (up to date)
+I, [2020-01-10T17:32:16.015556 #3180]  INFO -- default-ubuntu-xenial64:   * execute[apt-get update] action nothing (skipped due to action :nothing)
+I, [2020-01-10T17:32:16.016898 #3180]  INFO -- default-ubuntu-xenial64:   * execute[apt-get autoremove] action nothing (skipped due to action :nothing)
+I, [2020-01-10T17:32:16.029442 #3180]  INFO -- default-ubuntu-xenial64:   * execute[apt-get autoclean] action nothing (skipped due to action :nothing)
+I, [2020-01-10T17:32:16.030250 #3180]  INFO -- default-ubuntu-xenial64:   * directory[/var/cache/local] action create
+I, [2020-01-10T17:32:16.042154 #3180]  INFO -- default-ubuntu-xenial64:     - create new directory /var/cache/local
+I, [2020-01-10T17:32:16.042442 #3180]  INFO -- default-ubuntu-xenial64:     - change mode from '' to '0755'
+I, [2020-01-10T17:32:16.042714 #3180]  INFO -- default-ubuntu-xenial64:     - change owner from '' to 'root'
+I, [2020-01-10T17:32:16.043543 #3180]  INFO -- default-ubuntu-xenial64:     - change group from '' to 'root'
+I, [2020-01-10T17:32:16.044158 #3180]  INFO -- default-ubuntu-xenial64:   * directory[/var/cache/local/preseeding] action create
+I, [2020-01-10T17:32:16.055929 #3180]  INFO -- default-ubuntu-xenial64:     - create new directory /var/cache/local/preseeding
+I, [2020-01-10T17:32:16.056305 #3180]  INFO -- default-ubuntu-xenial64:     - change mode from '' to '0755'
+I, [2020-01-10T17:32:16.056632 #3180]  INFO -- default-ubuntu-xenial64:     - change owner from '' to 'root'
+I, [2020-01-10T17:32:16.057534 #3180]  INFO -- default-ubuntu-xenial64:     - change group from '' to 'root'
+I, [2020-01-10T17:32:16.080309 #3180]  INFO -- default-ubuntu-xenial64:   * template[/etc/apt/apt.conf.d/10dpkg-options] action create
+I, [2020-01-10T17:32:16.081236 #3180]  INFO -- default-ubuntu-xenial64:     - create new file /etc/apt/apt.conf.d/10dpkg-options
+I, [2020-01-10T17:32:16.081550 #3180]  INFO -- default-ubuntu-xenial64:     - update content in file /etc/apt/apt.conf.d/10dpkg-options from none to c918ac
+I, [2020-01-10T17:32:16.082547 #3180]  INFO -- default-ubuntu-xenial64:     --- /etc/apt/apt.conf.d/10dpkg-options	2020-01-10 17:32:14.511230480 +0000
+I, [2020-01-10T17:32:16.082837 #3180]  INFO -- default-ubuntu-xenial64:     +++ /etc/apt/apt.conf.d/.chef-10dpkg-options20200110-1911-1mg1rha	2020-01-10 17:32:14.511230480 +0000
+I, [2020-01-10T17:32:16.083593 #3180]  INFO -- default-ubuntu-xenial64:     @@ -1 +1,4 @@
+I, [2020-01-10T17:32:16.085666 #3180]  INFO -- default-ubuntu-xenial64:     +# Managed by Chef
+I, [2020-01-10T17:32:16.086613 #3180]  INFO -- default-ubuntu-xenial64:     +DPkg::Options {
+I, [2020-01-10T17:32:16.088738 #3180]  INFO -- default-ubuntu-xenial64:     +}
+I, [2020-01-10T17:32:16.089145 #3180]  INFO -- default-ubuntu-xenial64:     - change mode from '' to '0644'
+I, [2020-01-10T17:32:16.089468 #3180]  INFO -- default-ubuntu-xenial64:     - change owner from '' to 'root'
+I, [2020-01-10T17:32:16.101603 #3180]  INFO -- default-ubuntu-xenial64:     - change group from '' to 'root'
+I, [2020-01-10T17:32:16.125219 #3180]  INFO -- default-ubuntu-xenial64:   * template[/etc/apt/apt.conf.d/10recommends] action create
+I, [2020-01-10T17:32:16.126220 #3180]  INFO -- default-ubuntu-xenial64:     - create new file /etc/apt/apt.conf.d/10recommends
+I, [2020-01-10T17:32:16.126531 #3180]  INFO -- default-ubuntu-xenial64:     - update content in file /etc/apt/apt.conf.d/10recommends from none to f41e1d
+I, [2020-01-10T17:32:16.126804 #3180]  INFO -- default-ubuntu-xenial64:     --- /etc/apt/apt.conf.d/10recommends	2020-01-10 17:32:14.551250480 +0000
+I, [2020-01-10T17:32:16.127085 #3180]  INFO -- default-ubuntu-xenial64:     +++ /etc/apt/apt.conf.d/.chef-10recommends20200110-1911-18jq6rq	2020-01-10 17:32:14.551250480 +0000
+I, [2020-01-10T17:32:16.127328 #3180]  INFO -- default-ubuntu-xenial64:     @@ -1 +1,4 @@
+I, [2020-01-10T17:32:16.127559 #3180]  INFO -- default-ubuntu-xenial64:     +# Managed by Chef
+I, [2020-01-10T17:32:16.127779 #3180]  INFO -- default-ubuntu-xenial64:     +APT::Install-Recommends "1";
+I, [2020-01-10T17:32:16.128940 #3180]  INFO -- default-ubuntu-xenial64:     +APT::Install-Suggests "0";
+I, [2020-01-10T17:32:16.129221 #3180]  INFO -- default-ubuntu-xenial64:     - change mode from '' to '0644'
+I, [2020-01-10T17:32:16.129422 #3180]  INFO -- default-ubuntu-xenial64:     - change owner from '' to 'root'
+I, [2020-01-10T17:32:16.130144 #3180]  INFO -- default-ubuntu-xenial64:     - change group from '' to 'root'
+I, [2020-01-10T17:32:20.943382 #3180]  INFO -- default-ubuntu-xenial64:   * apt_package[apt-transport-https, gnupg, dirmngr] action install
+I, [2020-01-10T17:32:20.943805 #3180]  INFO -- default-ubuntu-xenial64:     - install version 2.1.11-6ubuntu2.1 of package dirmngr
+I, [2020-01-10T17:32:20.944188 #3180]  INFO -- default-ubuntu-xenial64: Recipe: node::default
+I, [2020-01-10T17:32:29.179718 #3180]  INFO -- default-ubuntu-xenial64:   * apt_package[nginx] action install
+I, [2020-01-10T17:32:29.180159 #3180]  INFO -- default-ubuntu-xenial64:     - install version 1.10.3-0ubuntu0.16.04.4 of package nginx
+I, [2020-01-10T17:32:29.341193 #3180]  INFO -- default-ubuntu-xenial64:   * service[nginx] action enable (up to date)
+I, [2020-01-10T17:32:29.524156 #3180]  INFO -- default-ubuntu-xenial64:   * service[nginx] action start (up to date)
+I, [2020-01-10T17:32:29.546891 #3180]  INFO -- default-ubuntu-xenial64:   * template[/etc/nginx/sites-available/proxy.conf] action create
+I, [2020-01-10T17:32:29.548429 #3180]  INFO -- default-ubuntu-xenial64:     - create new file /etc/nginx/sites-available/proxy.conf
+I, [2020-01-10T17:32:29.550824 #3180]  INFO -- default-ubuntu-xenial64:     - update content in file /etc/nginx/sites-available/proxy.conf from none to 5ab3b7
+I, [2020-01-10T17:32:29.554406 #3180]  INFO -- default-ubuntu-xenial64:     --- /etc/nginx/sites-available/proxy.conf	2020-01-10 17:32:27.981962480 +0000
+I, [2020-01-10T17:32:29.558905 #3180]  INFO -- default-ubuntu-xenial64:     +++ /etc/nginx/sites-available/.chef-proxy20200110-1911-1dslatx.conf	2020-01-10 17:32:27.981962480 +0000
+I, [2020-01-10T17:32:29.559895 #3180]  INFO -- default-ubuntu-xenial64:     @@ -1 +1,21 @@
+I, [2020-01-10T17:32:29.561684 #3180]  INFO -- default-ubuntu-xenial64:     +server {
+I, [2020-01-10T17:32:29.563481 #3180]  INFO -- default-ubuntu-xenial64:     +  listen 80;
+I, [2020-01-10T17:32:29.564756 #3180]  INFO -- default-ubuntu-xenial64:     +  server_name development.local;
+I, [2020-01-10T17:32:29.567676 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.568891 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.570353 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.571102 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.571462 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.572267 #3180]  INFO -- default-ubuntu-xenial64:     +  location / {
+I, [2020-01-10T17:32:29.572637 #3180]  INFO -- default-ubuntu-xenial64:     +    proxy_pass http://localhost:3000;
+I, [2020-01-10T17:32:29.572949 #3180]  INFO -- default-ubuntu-xenial64:     +  }
+I, [2020-01-10T17:32:29.573410 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.573582 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.573709 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.574249 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.574589 #3180]  INFO -- default-ubuntu-xenial64:     +
+I, [2020-01-10T17:32:29.574786 #3180]  INFO -- default-ubuntu-xenial64:     +  location /posts {
+I, [2020-01-10T17:32:29.575279 #3180]  INFO -- default-ubuntu-xenial64:     +    proxy_pass http://127.0.0.1:3000/posts;
+I, [2020-01-10T17:32:29.575891 #3180]  INFO -- default-ubuntu-xenial64:     +  }
+I, [2020-01-10T17:32:29.576235 #3180]  INFO -- default-ubuntu-xenial64:     +}
+I, [2020-01-10T17:32:29.577278 #3180]  INFO -- default-ubuntu-xenial64:   * link[/etc/nginx/sites-enabled/proxy.conf] action create
+I, [2020-01-10T17:32:29.578119 #3180]  INFO -- default-ubuntu-xenial64:     - create symlink at /etc/nginx/sites-enabled/proxy.conf to /etc/nginx/sites-available/proxy.conf
+I, [2020-01-10T17:32:29.578769 #3180]  INFO -- default-ubuntu-xenial64:   * link[/etc/nginx/sites-enabled/default] action delete
+I, [2020-01-10T17:32:29.579223 #3180]  INFO -- default-ubuntu-xenial64:     - delete link to file at /etc/nginx/sites-enabled/default
+I, [2020-01-10T17:32:29.590936 #3180]  INFO -- default-ubuntu-xenial64:   * npm_package[pm2] action install
+I, [2020-01-10T17:32:48.270899 #3180]  INFO -- default-ubuntu-xenial64:     * execute[install NPM package pm2] action run
+I, [2020-01-10T17:32:48.271506 #3180]  INFO -- default-ubuntu-xenial64:       - execute npm install  -global pm2
+I, [2020-01-10T17:32:48.271837 #3180]  INFO -- default-ubuntu-xenial64:   
+I, [2020-01-10T17:32:48.732276 #3180]  INFO -- default-ubuntu-xenial64:   * service[nginx] action restart
+I, [2020-01-10T17:32:48.732675 #3180]  INFO -- default-ubuntu-xenial64:     - restart service service[nginx]
+I, [2020-01-10T17:32:48.850831 #3180]  INFO -- default-ubuntu-xenial64: 
+I, [2020-01-10T17:32:48.850999 #3180]  INFO -- default-ubuntu-xenial64: Running handlers:
+I, [2020-01-10T17:32:48.851239 #3180]  INFO -- default-ubuntu-xenial64: Running handlers complete
+I, [2020-01-10T17:32:48.851433 #3180]  INFO -- default-ubuntu-xenial64: Chef Infra Client finished, 20/33 resources updated in 01 minutes 04 seconds
+I, [2020-01-10T17:32:48.873569 #3180]  INFO -- default-ubuntu-xenial64: Downloading files from <default-ubuntu-xenial64>
+I, [2020-01-10T17:32:49.023237 #3180]  INFO -- default-ubuntu-xenial64: Finished converging <default-ubuntu-xenial64> (2m8.58s).
+I, [2020-01-10T17:32:49.023647 #3180]  INFO -- default-ubuntu-xenial64: -----> Setting up <default-ubuntu-xenial64>...
+I, [2020-01-10T17:32:49.026123 #3180]  INFO -- default-ubuntu-xenial64: Finished setting up <default-ubuntu-xenial64> (0m0.00s).
+I, [2020-01-10T17:32:49.026517 #3180]  INFO -- default-ubuntu-xenial64: -----> Verifying <default-ubuntu-xenial64>...
+I, [2020-01-10T17:32:50.458835 #3180]  INFO -- default-ubuntu-xenial64: Loaded tests from {:path=>"C:.Users.Chef_Attribute_And_Template.node.test.integration.default"} 
+I, [2020-01-10T17:32:56.203114 #3180]  INFO -- default-ubuntu-xenial64: Finished verifying <default-ubuntu-xenial64> (0m7.17s).
